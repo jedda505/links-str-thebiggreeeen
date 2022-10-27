@@ -26,7 +26,6 @@ st_button('discord', 'https://discord.gg/xs83PBTcw2', 'Our Discord Community', i
 
 def od_job():
     schedule.every().thursday.at("18:23").do(
-        While True:
             st_button('open_deck', 'https://docs.google.com/spreadsheets/d/17nO20xzAFPw7ulF7iJgfqj7Lem-u_yBB5ljWiwVBBsQ/edit#gid=0Q/edit#gid=0', 'PALMS DJ JAM OPEN DECKS SIGN UP - 5th October 2022', icon_size)
     )
 
