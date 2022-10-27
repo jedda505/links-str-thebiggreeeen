@@ -21,17 +21,11 @@ icon_size = 20
 
 st_button('discord', 'https://discord.gg/xs83PBTcw2', 'Our Discord Community', icon_size)
 
-# Schedulable Open Deck Signup Button
-
-st_button('open_deck', 'https://docs.google.com/spreadsheets/d/17nO20xzAFPw7ulF7iJgfqj7Lem-u_yBB5ljWiwVBBsQ/edit#gid=0Q/edit#gid=0', 'PALMS DJ JAM OPEN DECKS SIGN UP - 5th October 2022', icon_size)
-
-
-
 # This function defines the schedule for the open deck link to drop.
 
 
 def od_job():
-    schedule.every().thursday.at("18:00").do(
+    schedule.every().thursday.at("18:05").do(
         st_button('open_deck', 'https://docs.google.com/spreadsheets/d/17nO20xzAFPw7ulF7iJgfqj7Lem-u_yBB5ljWiwVBBsQ/edit#gid=0Q/edit#gid=0', 'PALMS DJ JAM OPEN DECKS SIGN UP - 5th October 2022', icon_size)
     )
     return schedule.CancelJob
