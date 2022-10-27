@@ -1,6 +1,4 @@
 import streamlit as st
-import schedule
-import time
 
 def load_css():
     with open("style.css") as f:
