@@ -9,9 +9,9 @@ st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.png'))
 
-st.header('The Big Green')
+st.header('THE BIG GREEN')
 
-st.info('Soulful music and more sustainable nightlife.')
+st.info('Curating Soulful music and adovcating for more sustainable nightlife.')
 
 icon_size = 20
 
