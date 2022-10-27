@@ -15,6 +15,6 @@ st.info('Soulful music and more sustainable nightlife.')
 
 icon_size = 20
 
-st_button('The Big Green Discord Server', 'https://discord.gg/xs83PBTcw2', 'Our Discord Community', icon_size)
-st_button('Open Deck Signup', 'https://docs.google.com/spreadsheets/d/17nO20xzAFPw7ulF7iJgfqj7Lem-u_yBB5ljWiwVBBsQ/edit#gid=0Q/edit#gid=0', 'PALMS DJ JAM OPEN DECKS SIGN UP - 5th October 2022', icon_size)
+st_button('discord', 'https://discord.gg/xs83PBTcw2', 'Our Discord Community', icon_size)
+st_button('open_deck', 'https://docs.google.com/spreadsheets/d/17nO20xzAFPw7ulF7iJgfqj7Lem-u_yBB5ljWiwVBBsQ/edit#gid=0Q/edit#gid=0', 'PALMS DJ JAM OPEN DECKS SIGN UP - 5th October 2022', icon_size)
 
